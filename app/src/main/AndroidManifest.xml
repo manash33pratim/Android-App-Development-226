@@ -18,10 +18,11 @@
             android:name="com.manash.cse226_notes.MainActivity"
             android:exported="true" />
 
-        <service android:name=".unit_2.BoundServiceDemo" />
-
+        <service android:name="com.manash.cse226_notes.unit_2.bound_service.BoundServiceDemo" />
+        <service android:name="com.manash.cse226_notes.unit_2.unbound_services.UnboundServiceDemo" />
+        <service android:name="com.manash.cse226_notes.unit_2.foreground_service.ForegroundServiceDemo" />
         <activity
-            android:name=".unit_2.BoundServiceExample"
+            android:name="com.manash.cse226_notes.unit_2.bound_service.BoundServiceExample"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,30 +30,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <service android:name=".unit_2.ForegroundServiceDemo" />
-
         <activity
-            android:name=".unit_2.ForegroundServiceExample"
-            android:exported="true" />
-
-
-        <service android:name=".unit_2.UnboundServiceDemo" />
-
-        <activity
-            android:name=".unit_2.UnboundServiceExample"
+            android:name="com.manash.cse226_notes.unit_2.foreground_service.ForegroundServiceExample"
             android:exported="true" />
         <activity
-            android:name=".unit_2.AsyncTaskDownloadImage"
+            android:name="com.manash.cse226_notes.unit_2.unbound_services.UnboundServiceExample"
             android:exported="true" />
         <activity
-            android:name=".unit_2.AsyncTaskProgressBar"
+            android:name="com.manash.cse226_notes.unit_2.AsyncTaskDownloadImage"
             android:exported="true" />
         <activity
-            android:name=".unit_1.GridViewExample"
+            android:name="com.manash.cse226_notes.unit_2.AsyncTaskProgressBar"
             android:exported="true" />
         <activity
-            android:name=".unit_1.RecyclerViewExample"
+            android:name="com.manash.cse226_notes.unit_1.grid_view.GridViewExample"
+            android:exported="true" />
+        <activity
+            android:name="com.manash.cse226_notes.unit_1.recycler_view.RecyclerViewExample"
             android:exported="true" />
         <activity
             android:name="com.manash.cse226_notes.unit_1.custom_list_view.CustomListViewExample"
